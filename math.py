@@ -19,4 +19,7 @@ def divide(x,y):
 
 # Square fn implementation
 def square(x):
-    return x*x
+    if x==0:
+        return ERROR
+    else:
+        return x*x
